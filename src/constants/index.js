@@ -24,6 +24,7 @@ import {
   sbsc,
   Israel,
   Ojo,
+  Festus,
 } from "../assets";
 
 export const navLinks = [
@@ -78,7 +79,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "python",
+    name: "Python",
     icon: python,
   },
   {
@@ -179,7 +180,7 @@ const testimonials = [
     name: "Festus Omole",
     designation: "Software Developer",
     company: "Meta",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: Festus,
   },
   {
     testimonial:
