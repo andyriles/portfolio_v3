@@ -25,6 +25,10 @@ import {
   Israel,
   Ojo,
   Festus,
+  rust,
+  solidity,
+  aws,
+  ytmini,
 } from "../assets";
 
 export const navLinks = [
@@ -112,14 +116,18 @@ const technologies = [
     name: "linux",
     icon: linux,
   },
-  /*  {
+  {
     name: "rust",
     icon: rust,
   },
   {
     name: "solidity",
     icon: solidity,
-  }, */
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
 ];
 
 const experiences = [
@@ -204,7 +212,7 @@ const projects = [
   {
     name: "Meal-Orderer",
     description:
-      "Book-A-Meal is an application that allows customers to make food orders and helps the food vendor know what the customers want to eat.",
+      "An application that allows customers to make food orders and helps the food vendor know what the customers want to eat.",
     tags: [
       {
         name: "typescript",
@@ -249,25 +257,25 @@ const projects = [
     source_code_link: "https://github.com/andyriles/Geodash",
   },
   {
-    name: "Trip Guide",
+    name: "Youtube-mini",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive youtube clone that allows you watch your favourite youtube videos and podcasts",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MUI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ytmini,
+    source_code_link: "https://github.com/andyriles/youtube-mini",
   },
 ];
 

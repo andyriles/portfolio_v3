@@ -13,6 +13,7 @@ import travel from "./travel.png";
 import Israel from "./Israel.png";
 import Ojo from "./Ojo.png";
 import Festus from "./Festus.png";
+import ytmini from "./yt-mini.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -93,4 +94,5 @@ export {
   Israel,
   Ojo,
   Festus,
+  ytmini,
 };
