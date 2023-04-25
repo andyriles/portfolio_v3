@@ -29,6 +29,7 @@ import {
   solidity,
   aws,
   ytmini,
+  summarize,
 } from "../assets";
 
 export const navLinks = [
@@ -236,9 +237,9 @@ const projects = [
       "https://github.com/andyriles/meal-ordering-service-backend",
   },
   {
-    name: "Geodash",
+    name: "Sumz",
     description:
-      "Web application that A travel companion app that gives you a review of the best restaurants, hotels and attractions.",
+      "Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries",
     tags: [
       {
         name: "react",
@@ -246,15 +247,24 @@ const projects = [
       },
       {
         name: "rapidAPI",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
-        name: "MUI",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
+      {
+        name: "Redux Toolkit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RTK Query",
+        color: "green-text-gradient",
+      },
     ],
-    image: travel,
-    source_code_link: "https://github.com/andyriles/Geodash",
+    image: summarize,
+    source_code_link: "https://github.com/andyriles/AI-Summarizer",
+    live_demo: "https://ai-summarizer-chi.vercel.app/",
   },
   {
     name: "Youtube-mini",
@@ -276,6 +286,29 @@ const projects = [
     ],
     image: ytmini,
     source_code_link: "https://github.com/andyriles/youtube-mini",
+    live_demo: "https://youtube-mini-two.vercel.app/",
+  },
+  {
+    name: "Geodash",
+    description:
+      "Web application that A travel companion app that gives you a review of the best restaurants, hotels and attractions.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: travel,
+    source_code_link: "https://github.com/andyriles/Geodash",
+    live_demo: "https://geo-dash.netlify.app/",
   },
 ];
 
