@@ -30,6 +30,7 @@ import {
   aws,
   ytmini,
   summarize,
+  oneStream,
 } from "../assets";
 
 export const navLinks = [
@@ -235,6 +236,27 @@ const projects = [
     image: mealOrderer,
     source_code_link:
       "https://github.com/andyriles/meal-ordering-service-backend",
+  },
+  {
+    name: "OneStream",
+    description: "Obtain information about your favourite movies and TV shows ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tbdb API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: oneStream,
+    source_code_link: "https://github.com/andyriles/oneStream",
+    live_demo: "https://one-stream-nine.vercel.app/",
   },
   {
     name: "Sumz",
