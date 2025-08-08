@@ -134,6 +134,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Backend Developer ",
+    company_name: "Guaranty Trust Bank",
+    icon: ms,
+    iconBg: "#383E56",
+    date: "June 2023 - Present",
+    points: [
+      "Migrated all of GTCO's USSD and Airtime Services from Basis Core Banking to Finacle Core Banking system",
+      "Managed and developed new features on the *737# GTB USSD banking using Asp.net, C# and SQL",
+      "Maintained the bill payments code base and portal for over 500 merchants, ensuring smooth and secure transactions for customers.",
+      "Worked swiftly to resolve multiple CBN exceptions and also implemented several features mandated by the CBN across multiple applications ",
+    ],
+  },
+  {
     title: "Fullstack Developer ",
     company_name: "Microsystems",
     icon: ms,
