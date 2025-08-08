@@ -31,6 +31,7 @@ import {
   ytmini,
   summarize,
   oneStream,
+  gtco
 } from "../assets";
 
 export const navLinks = [
@@ -124,7 +125,7 @@ const experiences = [
   {
     title: "Backend Developer ",
     company_name: "Guaranty Trust Bank",
-    icon: ms,
+    icon: gtco,
     iconBg: "#383E56",
     date: "June 2023 - Present",
     points: [

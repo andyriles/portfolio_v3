@@ -49,6 +49,7 @@ import sbsc from "./company/sbsc.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gtco from "./GTCO.png";
 
 export {
   logo,
@@ -99,4 +100,5 @@ export {
   ytmini,
   summarize,
   oneStream,
+  gtco
 };
