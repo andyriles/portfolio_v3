@@ -45,11 +45,12 @@ import ms from "./company/ms.png";
 import ietech from "./company/ietech.png";
 import ac from "./company/ac.png";
 import sbsc from "./company/sbsc.png";
+import gtco from "./company/GTCO.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import gtco from "./GTCO.png";
+
 
 export {
   logo,
