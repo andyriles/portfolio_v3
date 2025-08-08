@@ -31,7 +31,10 @@ import {
   ytmini,
   summarize,
   oneStream,
-  gtco
+  gtco,
+  dotnet,
+  csharp,
+  sql
 } from "../assets";
 
 export const navLinks = [
@@ -70,6 +73,22 @@ const services = [
 
 const technologies = [
   {
+    name: ".Net",
+    icon: dotnet,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -88,10 +107,6 @@ const technologies = [
   {
     name: "Python",
     icon: python,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
   },
   {
     name: "Tailwind CSS",

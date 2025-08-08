@@ -36,6 +36,9 @@ import linux from "./tech/Linux.png";
 import python from "./tech/python.png";
 import rust from "./tech/rust.png";
 import solidity from "./tech/Solidity.png";
+import sql from "./tech/sql.png";
+import csharp from "./tech/Csharp.png";
+import dotnet from "./tech/dotnet.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -101,5 +104,8 @@ export {
   ytmini,
   summarize,
   oneStream,
-  gtco
+  gtco,
+  dotnet,
+  csharp,
+  sql
 };
