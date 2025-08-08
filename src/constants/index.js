@@ -115,18 +115,6 @@ const technologies = [
     icon: docker,
   },
   {
-    name: "linux",
-    icon: linux,
-  },
-  {
-    name: "rust",
-    icon: rust,
-  },
-  {
-    name: "solidity",
-    icon: solidity,
-  },
-  {
     name: "AWS",
     icon: aws,
   },
